@@ -1,0 +1,23 @@
+{
+  "name": "streaming-api-json-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "json-server -p 3001 -w db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inductio/streaming-api-json-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inductio/streaming-api-json-server/issues"
+  },
+  "homepage": "https://github.com/inductio/streaming-api-json-server#readme",
+  "dependencies": {
+    "json-server": "^0.15.1"
+  }
+}
